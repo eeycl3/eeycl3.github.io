@@ -4,7 +4,7 @@
 
     
   <url>
-    <loc>//Chino.me/2018/01/15/First-Pos/</loc>
+    <loc>chinoliu.com/2018/01/15/First-Pos/</loc>
     <lastmod>2018-01-15T17:10:57.271Z</lastmod>
     <data>
         <display>
@@ -16,7 +16,7 @@
          
            
              
-              <breadCrumb title="寂寞寂寞就好" url="//Chino.me/categories/lonesome-peak/"/>
+              <breadCrumb title="寂寞寂寞就好" url="chinoliu.com/categories/lonesome-peak/"/>
           
         </display>
     </data>
