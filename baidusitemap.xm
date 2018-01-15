@@ -16,7 +16,7 @@
          
            
              
-              <breadCrumb title="寂寞寂寞就好" url="//Chino.me/categories/%E5%AF%82%E5%AF%9E%E5%AF%82%E5%AF%9E%E5%B0%B1%E5%A5%BD/"/>
+              <breadCrumb title="寂寞寂寞就好" url="//Chino.me/categories/lonesome-peak/"/>
           
         </display>
     </data>
