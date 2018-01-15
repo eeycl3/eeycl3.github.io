@@ -8,17 +8,20 @@
   <link rel="dns-prefetch" href="chinoliu.com">
   <title>github 和 hexo 建站 | Chi要成为很牛的程序员</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Github Pages">
+  <meta name="description" content="Outline昨天闲着无聊，决定像大牛学习，看到牛X的大牛都有各种blog 来分享心得。所以本着开源分享的原则，决定自己也建一个blog，像大牛学习。 这个blog 是通过hexo + github page +  aliyun 的域名服务 建造的。这里写简单介绍一下如何最基本的搭建hexo + github page.   Github page什么是github pageGithub page">
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="github 和 hexo 建站">
 <meta property="og:url" content="chinoliu.com/2018/01/15/github-和-hexo-建站/index.html">
 <meta property="og:site_name" content="Chi要成为很牛的程序员">
-<meta property="og:description" content="Github Pages">
-<meta property="og:updated_time" content="2018-01-15T20:13:52.165Z">
+<meta property="og:description" content="Outline昨天闲着无聊，决定像大牛学习，看到牛X的大牛都有各种blog 来分享心得。所以本着开源分享的原则，决定自己也建一个blog，像大牛学习。 这个blog 是通过hexo + github page +  aliyun 的域名服务 建造的。这里写简单介绍一下如何最基本的搭建hexo + github page.   Github page什么是github pageGithub page">
+<meta property="og:image" content="http://chuantu.biz/t6/206/1516055658x-1566671321.jpg">
+<meta property="og:image" content="http://chuantu.biz/t6/206/1516055838x-1566671297.jpg">
+<meta property="og:updated_time" content="2018-01-15T22:56:42.402Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="github 和 hexo 建站">
-<meta name="twitter:description" content="Github Pages">
+<meta name="twitter:description" content="Outline昨天闲着无聊，决定像大牛学习，看到牛X的大牛都有各种blog 来分享心得。所以本着开源分享的原则，决定自己也建一个blog，像大牛学习。 这个blog 是通过hexo + github page +  aliyun 的域名服务 建造的。这里写简单介绍一下如何最基本的搭建hexo + github page.   Github page什么是github pageGithub page">
+<meta name="twitter:image" content="http://chuantu.biz/t6/206/1516055658x-1566671321.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Chi要成为很牛的程序员" type="application/atom+xml">
   
@@ -180,7 +183,75 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h1>
+        <h2 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a><strong>Outline</strong></h2><p>昨天闲着无聊，决定像大牛学习，看到牛X的大牛都有各种blog 来分享心得。所以本着开源分享的原则，决定自己也建一个blog，像大牛学习。</p>
+<p>这个blog 是通过hexo + github page +  aliyun 的域名服务 建造的。这里写简单介绍一下如何最基本的搭建hexo + github page.  </p>
+<h2 id="Github-page"><a href="#Github-page" class="headerlink" title="Github page"></a><strong>Github page</strong></h2><h5 id="什么是github-page"><a href="#什么是github-page" class="headerlink" title="什么是github page"></a>什么是github page</h5><p><a href="https://pages.github.com/" target="_blank" rel="noopener">Github page</a> 是一个静态的网站，免费哦！</p>
+<h5 id="建立Github-Page"><a href="#建立Github-Page" class="headerlink" title="建立Github Page"></a><strong>建立Github Page</strong></h5><ol>
+<li><p>建立一个repo</p>
+<p>​    去Github 建立一个repository 叫做 <u><strong><em>username.github.io</em></strong></u> 然后username就是你github 的username。</p>
+<p>​</p>
+</li>
+<li><p>复制你的repo到你的terminal</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/username/username.github.io</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>Hello world</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> username.github.io</span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">"Hello World"</span> &gt; index.html</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Push it</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git add --all</span><br><span class="line">$ git commit -m <span class="string">"Initial commit"</span></span><br><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>访问 <strong><a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></strong> 你的网站建好了！</p>
+</li>
+</ol>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><strong>Hexo</strong></h2><h5 id="什么是hexo？"><a href="#什么是hexo？" class="headerlink" title="什么是hexo？"></a>什么是hexo？</h5><p><a href="https://hexo.io/zh-cn/index.html" target="_blank" rel="noopener">Hexo</a> 是一个Blog framework，还是免费哦！它是一个简单的,轻量级,基于Nodejs的一个静态的博客框架. 我们可以很方便的使用Hexo搭建个人博客.  Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<h5 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h5><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：</p>
+<ul>
+<li><a href="http://nodejs.org/" target="_blank" rel="noopener">Node.js</a></li>
+<li><a href="http://git-scm.com/" target="_blank" rel="noopener">Git</a><br>如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>没安装git 和 node.js 的话 下好了 再装一下就好了。</p>
+<h5 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ sudo hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ sudo npm install</span><br><span class="line">$ hexo g <span class="comment"># 或者hexo generate</span></span><br><span class="line">$ hexo s <span class="comment"># 或者hexo server，可以在http://localhost:4000/ 查看</span></span><br></pre></td></tr></table></figure>
+<p>#####发表新文章</p>
+<p>用hexo发表新文章</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">"article title"</span> <span class="comment">#写文章</span></span><br></pre></td></tr></table></figure>
+<h5 id="Hexo主题设置"><a href="#Hexo主题设置" class="headerlink" title="Hexo主题设置"></a>Hexo主题设置</h5><p>这里以主题hexo-theme-yilia为例进行说明。</p>
+<p>安装主题，在blog 目录下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
+<p>启用主题</p>
+<p>修改Hexo博客目录下的_config.yml配置文件中的theme属性，将其设置为yilia</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: yilia</span><br></pre></td></tr></table></figure>
+<p>更新主题</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/yilia</span><br><span class="line">$ git pull</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ hexo clean</span><br><span class="line">$ hexo g <span class="comment"># 生成</span></span><br><span class="line">$ hexo s <span class="comment"># 启动本地web服务器， 我就把本地服务器当成一个beta了</span></span><br></pre></td></tr></table></figure>
+<p>现在打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> ，会看到我们已经应用了一个新的主题。</p>
+<p>现在有很多很多有趣的主题， 大家可以凭借自己的喜好选一个哇、</p>
+<p><a href="https://www.zhihu.com/question/24422335/answer/46357100" target="_blank" rel="noopener">有哪些好看的 Hexo 主题?</a>  不同主题会有不同的configuration，所以基本都大同小异了。</p>
+<h5 id="使用hexo-deploy部署到Github-page"><a href="#使用hexo-deploy部署到Github-page" class="headerlink" title="使用hexo deploy部署到Github page"></a>使用hexo deploy部署到Github page</h5><p>hexo deploy可以部署到很多平台，具体可以参考这个<a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="noopener">链接</a>. 如果部署到github，需要在配置文件_config.xml中作如下修改：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">   type: git</span><br><span class="line">   repo: https://github.com/username/username.github.io.git</span><br><span class="line">   branch: master</span><br></pre></td></tr></table></figure>
+<p>然后在命令行中执行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy <span class="comment"># 发送到你的blog 站点上</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意需要提前安装一个扩展：</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>使用git命令行部署（optional）<br>不幸的是，上述命令虽然简单方便，但是偶尔会有莫名其妙的问题出现，因此，我们也可以追本溯源，使用git命令来完成部署的工作。</p>
+<h2 id="Aliyun-阿里云"><a href="#Aliyun-阿里云" class="headerlink" title="Aliyun 阿里云:"></a>Aliyun 阿里云:</h2><p>马云爸爸就是牛X。我就这样随随便便的买了一个域名了。chinoliu.com 还不贵哈哈哈哈。</p>
+<h5 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h5><p>去<a href="https://wanwang.aliyun.com/" target="_blank" rel="noopener">阿里云</a> 注册一个账号，然后在国外的同学可以选择International 区域，购买域名哇。找一个又臭屁，又便宜的吧。 哈哈哈哈哈。</p>
+<p>比如我就买了一个<em>chinoliu.com</em></p>
+<p>然后呢就是解析域名了：</p>
+<p><img src="http://chuantu.biz/t6/206/1516055658x-1566671321.jpg" alt="域名解析"></p>
+<p>然后就是点击这个解析了、 我们要创造2个解析！</p>
+<p><img src="http://chuantu.biz/t6/206/1516055838x-1566671297.jpg" alt=""></p>
+<p>记录类型选择CNAME.</p>
+<p>主机记录填www。 然后再解析一次再建一个CNAME， 主机记录填@</p>
+<p>记录值就是你github page 的url 了。</p>
+<h5 id="配置hexo-CNAME-绑定你的域名"><a href="#配置hexo-CNAME-绑定你的域名" class="headerlink" title="配置hexo CNAME 绑定你的域名"></a>配置hexo CNAME 绑定你的域名</h5><p>很重要的一点哇，你要记得给你的hexo 也加CNAME</p>
+<p>在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如<a href="chinoliu.com">chinoliu.com</a>，注意前面没有<a href="http://，也没有www，然后使用hexo" target="_blank" rel="noopener">http://，也没有www，然后使用hexo</a> g &amp;&amp; hexo d上传部署。</p>
+<h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><p> 因为github page是一个静态网站，所以要想解决图片，评论啊等其他问题还需要第三方支持。</p>
+<p>比如说评论系统, 国内推荐: <a href="https://changyan.kuaizhan.com/" target="_blank" rel="noopener">畅言</a> 国外就是: <a href="https://disqus.com/" target="_blank" rel="noopener">disqus</a></p>
+<p>然后图片储存系统，国内推荐：<a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛</a> 国外还没找到，等我再找找。</p>
+<p>Hexo 还有一些好玩的插件，感兴趣的同学可以自己上github 或者官网档上再找一找。</p>
+<p>哦哦，再推荐一个比较好的markdown 编辑器 <a href="https://typora.io/" target="_blank" rel="noopener">Typora</a> 用起来很舒服。</p>
+
       
 
       
@@ -303,7 +374,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Github-Pages"><span class="toc-number">1.</span> <span class="toc-text">Github Pages</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Outline"><span class="toc-number">1.</span> <span class="toc-text">Outline</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Github-page"><span class="toc-number">2.</span> <span class="toc-text">Github page</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#什么是github-page"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">什么是github page</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#建立Github-Page"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">建立Github Page</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo"><span class="toc-number">3.</span> <span class="toc-text">Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#什么是hexo？"><span class="toc-number">3.0.0.1.</span> <span class="toc-text">什么是hexo？</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#安装前提"><span class="toc-number">3.0.0.2.</span> <span class="toc-text">安装前提</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#安装hexo"><span class="toc-number">3.0.0.3.</span> <span class="toc-text">安装hexo</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Hexo主题设置"><span class="toc-number">3.0.0.4.</span> <span class="toc-text">Hexo主题设置</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#使用hexo-deploy部署到Github-page"><span class="toc-number">3.0.0.5.</span> <span class="toc-text">使用hexo deploy部署到Github page</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Aliyun-阿里云"><span class="toc-number">4.</span> <span class="toc-text">Aliyun 阿里云:</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#购买域名"><span class="toc-number">4.0.0.1.</span> <span class="toc-text">购买域名</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#配置hexo-CNAME-绑定你的域名"><span class="toc-number">4.0.0.2.</span> <span class="toc-text">配置hexo CNAME 绑定你的域名</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Other"><span class="toc-number">5.</span> <span class="toc-text">Other</span></a></li></ol>
                     </div>
                 </span>
             </div>

@@ -5,7 +5,7 @@
     
   <url>
     <loc>chinoliu.com/2018/01/15/github-%E5%92%8C-hexo-%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2018-01-15T20:13:52.165Z</lastmod>
+    <lastmod>2018-01-15T22:56:42.402Z</lastmod>
     <data>
         <display>
         <title>github 和 hexo 建站</title>
