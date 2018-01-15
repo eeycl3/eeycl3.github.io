@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>chinoliu.com/2018/01/15/github-%E5%92%8C-hexo-%E5%BB%BA%E7%AB%99/</loc>
+    <lastmod>2018-01-15T20:03:31.989Z</lastmod>
+    <data>
+        <display>
+        <title>github 和 hexo 建站</title>
+        <pubTime>2018-01-15T19:58:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="建站" url="chinoliu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>chinoliu.com/2018/01/15/First-Pos/</loc>
     <lastmod>2018-01-15T17:10:57.271Z</lastmod>
     <data>
