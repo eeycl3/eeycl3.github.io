@@ -8,7 +8,7 @@
     <lastmod>2018-01-19T23:27:05.757Z</lastmod>
     <data>
         <display>
-        <title>spring boot + mongoDB + heroku 构建一个小型文件储存系统</title>
+        <title>Spring Boot + mongoDB + Heroku 构建一个小型文件储存系统</title>
         <pubTime>2018-01-19T05:12:00.000Z</pubTime>
         
         <tag>spring boot</tag>
@@ -32,7 +32,7 @@
     <lastmod>2018-01-15T23:49:12.293Z</lastmod>
     <data>
         <display>
-        <title>github 和 hexo 建站</title>
+        <title>Github 和 Hexo 建站</title>
         <pubTime>2018-01-15T19:58:12.000Z</pubTime>
         
         <tag>hexo</tag>
