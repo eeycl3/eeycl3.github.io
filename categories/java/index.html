@@ -161,50 +161,34 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-spring" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
     
-      <header class="article-header">
-        
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2018/01/19/spring/" class="archive-article-date">
+  	<time datetime="2018-01-19T05:12:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-19</time>
+</a>
+        </div>
+    	 
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/19/spring/">Spring Boot + mongoDB + Heroku 构建一个小型文件储存系统</a>
+      <a class="archive-article-title" href="/2018/01/19/spring/">spring boot + mongoDB + heroku 构建一个小型文件储存系统</a>
     </h1>
   
 
-        
-        <a href="/2018/01/19/spring/" class="archive-article-date">
-  	<time datetime="2018-01-19T05:12:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-19</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Introduction："><a href="#Introduction：" class="headerlink" title="Introduction："></a>Introduction：</h2><h3 id="需求："><a href="#需求：" class="headerlink" title="需求："></a>需求：</h3><p>因为自己建造了一个blog ，在找国外的file system 可以给自己的blog 插图的。找来找去没找到一个合适的。就打算自己写一个，主要自己能管理自己的图片啊，外部网站啊什么的。</p>
-<p>初步暂定就是用spring boot 作为服务器端。然后在考虑储存图片的时候就找了好多方法，当初脑子里最直接的想法是Amazon 的S3。 但是我真的不想把自己的信用卡信息交给AWS 来管理。总有点不信任AWS 的感觉。 虽然马上要去Amazon 搬砖。以后肯定会用到S3的技术，我就没必要再玩S3了。 后来就查到了mongoDB 可以实现储存16MB的文件，决定用mongoDB 实现这个service。 </p>
-<p>本文讲介绍如何通过用spring boot 加云服务上的mongoDB（<a href="https://mlab.com/" target="_blank" rel="noopener">mlab</a>） 并deploy到<a href="https://heroku.com" target="_blank" rel="noopener">heroku</a> 实现一个有500MB的文件储存系统。</p>
-<h3 id="Spring-boot"><a href="#Spring-boot" class="headerlink" title="Spring boot:"></a>Spring boot:</h3><p><a href="https://projects.spring.io/spring-boot/" target="_blank" rel="noopener">Spring boot</a> 是一款轻量级框架，可以大部分减少前期项目配置spring 的动作。很多微服务都是通过spring boot实现的！</p>
-<p>Spring Boot的特性有以下几条：</p>
-<ul>
-<li>创建独立Spring应用程序</li>
-<li>嵌入式Tomcat，Jetty容器，无需部署WAR包</li>
-<li>简化Maven及Gradle配置</li>
-<li>尽可能的自动化配置Spring</li>
-<li>直接植入产品环境下的实用功能，比如度量指标、健康检查及扩展配置等</li>
-<li>无需代码生成及XML配置</li>
-</ul>
-<p>如果对spring boot 不是很熟悉的同学，推荐：</p>
-        
-          <a class="article-more-a" href="/2018/01/19/spring/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -224,7 +208,7 @@
 		</ul>
 	</div>
 
-      
+          
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -237,39 +221,18 @@
 	</div>
 
 
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/01/19/spring/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
   
+    </div></section>
+  
+
+    
+
 
           </div>
         </div>
