@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>chinoliu.com/2018/06/20/home/</loc>
+    <lastmod>2018-06-21T00:17:32.346Z</lastmod>
+    <data>
+        <display>
+        <title>Coming home</title>
+        <pubTime>2018-06-21T00:12:01.000Z</pubTime>
+        
+        <tag>无处安放</tag>
+         
+         
+           
+             
+              <breadCrumb title="寂寞寂寞就好" url="chinoliu.com/categories/lonesome-peak/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>chinoliu.com/2018/01/19/spring/</loc>
     <lastmod>2018-01-19T23:27:05.757Z</lastmod>
     <data>
